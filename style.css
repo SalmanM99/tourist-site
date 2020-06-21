@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/background\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.nav-logo h1{
+    color: greenyellow;
+    font-size: 42px;
+    font-family: cursive;
+}
+.nav-links li{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 2px 5px;
+}
+.nav-links a{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+.nav-txt{  
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nav-txt h1{
+    text-transform: uppercase;
+    font-size: 42px;
+}
+.nav-btn button{
+    border: none;
+    padding: 5px 40px;
+    margin: 10px;
+    margin-bottom: 155px;
+    background-color: turquoise;
+    font-size: large;
+    border-radius: 10px;
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    color: turquoise;
+    background-color: white;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+section h1{
+    width: 300px;
+    text-align: center;
+    font-size: 28px;
+}
+.about{
+   display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.about-img img{
+    width: 400px;
+    height: 350px;
+}
+.about-us{
+    width: 500px;
+    text-align: justify;
+}
+.about-map img{
+    width: 400px;
+}
+.top-destinations{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-destinations h1{
+    width: 400px;
+    text-align: center;
+}
+.destination-imgs img{
+    width: 300px;
+    height: 300px;
+    margin: 7px;
+    
+}
+.destination-imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    
+}
+.destination-imgs figure{
+    border: 2px solid honeydew;
+    padding: 2px;
+    text-align: center;
+    background-color: honeydew;
+    box-shadow: 2px 2px 3px 2px grey;
+    
+}
+.destination-imgs figcaption{
+    background-color:springgreen ;
+    /* opacity: .5; */
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: honeydew;
+    padding: 50px;
+}
+main h1{
+    width: 30%;
+    text-align: center;
+}
+.content-work{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+    padding: 50px;
+    
+}
+.content-work div{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px grey;
+    transition: all .5s;
+    cursor: pointer;
+    width: 30%;
+}
+.content-work div:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.performance{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.performance div{
+    font-size: 26px;
+    width: 200px;
+    margin: 50px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: darkslategray;
+    justify-content: space-around;
+    color:azure;
+    padding: 10px;
+    text-transform: capitalize; 
+}
+.footer-logo,.footer-info,.footer-social,.footer-tag{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.footer-social div{
+    display: inline-block;
+    margin: 7px;
+}
+.footer-social i{
+    font-size: 22px;
+}
+.footer-tag h1{
+    text-align: center;
+}
+.footer-tag li{
+    text-align: ;
+    list-style: none;
+    margin: 10px 0px;
+}
+.footer-tag button{
+    background-color: transparent;
+    border: white 1px solid;
+    font-size: 18px;
+    padding: 7px 20px;
+    width: 200px;
+    color: azure;
+    transition: all .5s;
+    cursor: pointer;
+}
+.footer-tag button:hover{
+    background-color: azure;
+    color: darkslategrey;
+}
+.footer-info i{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 760px){
+    .nav-links li{
+        margin-bottom: 10px;
+        
+    }
+    .nav-links a{
+        font-size: 16px;
+    }
+    .nav-txt h1{
+        font-size: 26px;
+    }
+    section{
+        padding-left: 10px;
+    }
+    section h1{
+        text-align: left;
+    }
+    .about{
+        width: 420px;
+        margin-left: 0px;
+    }
+    .about-us p{
+        width: 420px;
+    }
+    main h1{
+        width: 100%;
+    }
+    .content-work{
+        padding: 50px 0px;
+        margin: 20px 0px;
+    }
+    .content-work div{
+        width: 300px;
+    }
+    .destination-imgs{
+        margin: 10px;
+    }
+    
+}

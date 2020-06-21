@@ -1,0 +1,192 @@
+header{
+    display: flex;
+    justify-content: right;
+    background-color: greenyellow;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.left-side{
+    flex-wrap: wrap;
+}
+
+.left-link{
+    width: 250px;
+    margin-right: 50px;
+    
+}
+.left-link ul{
+    padding-left: 0px;
+    box-shadow: 0px 0px 2px grey;
+    background-color: honeydew;
+    text-align: center;
+}
+.left-link li{
+    margin: 0px;
+    list-style: none;
+    padding: 40px 0px;
+    
+}
+.left-link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid;
+    padding: 5px 50px;
+}
+.right-side{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+.right-content,.left-content{
+    margin: 0px 100px;
+}
+.overview{
+    width: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+}
+.overview h1{
+    color: greenyellow;
+}
+.products div{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+.img-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-icon div{
+    margin: 10px;
+    
+    margin-top: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.img-icon img{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 100px; 
+}
+.Buildings{
+    padding: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Buildings h1{
+    width: 70%;
+    
+    color: greenyellow;
+}
+.Buildings img{
+    width: 300px;
+    height: 200px;
+}
+.Buildings-content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Buildings-content div{
+    box-shadow: 1px 1px 1px 2px gainsboro;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.Buildings-content button{
+    border: none;
+    align-items: center;
+    background-color: turquoise;
+    padding: 7px 10px;
+    color: azure;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.Buildings-content button:hover{
+    background-color: azure;
+    color: turquoise;
+}
+.view-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 100px 10px;
+}
+.view-content h1{
+    color: greenyellow;
+}
+.view-content img{
+    width: 600px;
+    margin: 10px 50px;
+}
+.view-content div{
+    width: 700px;
+    text-align: justify;
+}
+.products i{
+    font-size: 100px;
+}
+
+
+
+@media only screen and (max-width: 760px){
+    
+    .left-link ul{
+      display: none;
+    }
+    .left-content{
+        margin: 20px;
+    }
+    .overview{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .img-icon{
+        justify-content: center;
+    }
+    .right-side{
+        width: 420px;
+    }
+    .products div{
+        width: 70px;
+        height: 120px;
+        margin: 0px 10px;
+    }
+    .products i{
+        font-size: 32px;
+    }
+    .products{
+        display: flex;
+        padding-left: 10px;
+    }
+    .view-content img{
+        width: 400px;
+        margin: 10px;
+    }
+}
